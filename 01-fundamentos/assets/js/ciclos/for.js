@@ -1,3 +1,6 @@
+//permite repetir una instrucción o una instrucción compuesta un número especificado de veces.
+
+
 const heroes = [
     'batman',
     'superman',
@@ -13,6 +16,8 @@ for ( let i = 0 ; i < heroes.length ; i++ ){
 }
 
 
+
+//for in muestra el indice y la propiedad en sí, y la sentencia for of muestra los valores de una colección.
 console.warn('For in')
 for ( let i in heroes ){
     console.log( heroes[i] )

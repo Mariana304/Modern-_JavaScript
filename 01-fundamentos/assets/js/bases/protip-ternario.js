@@ -1,4 +1,7 @@
-const elMayor = (a,b) => ( a > b )? a : b;
+
+
+
+const elMayor = (a,b) => ( a > b )? a : b;// esta es una simpe funcion flecha que recibira 2 numeros como parametros y e
 
 
 console.log(elMayor(5,7));
@@ -7,13 +10,7 @@ const tieneMembresia = ( miembro ) => miembro ? '2 dolares' : '10 dolares'
 
 console.log(tieneMembresia(false));
 
-const amigo = true;
 
-const amigos = [
-    'peter',
-    'tony',
-    'Dr.Strange'
-]
 
 const nota = 65;
 
